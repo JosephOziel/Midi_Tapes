@@ -10,18 +10,32 @@ lh = 1
 tempo1 = 169
 
 time = 0
+time2 = 15  
+
+volume = 100
 
 Tape.addTempo(piano, 0, tempo1)
 
-sinpitches = [(pi/8)*x for x in range(0,16)]
+intervals = [(pi/8)*x for x in range(0,16)]
 
-def calc_sin_pitch(x):
-    return ceil(44*sin(x)+44)
+def calc_sin_pitch(x,a):
+    return ceil(44*sin(x)+a)
+def calc_cos_pitch(x,a):
+    return ceil(44*cos(x)+a)
 
 for _ in range(20):
-    for x in sinpitches:
-        Tape.addNote(piano, rh, calc_sin_pitch(x), time, 0.3333, 100)
+#    volume = volume - 3
+    for x in intervals:
+        Tape.addNote(piano, rh, calc_sin_pitch(x, 44), time, 0.3333, volume)
         time = time + 0.5
+
+volume = 100
+
+for _ in range(15):
+#    volume = volume - 4
+    for x in intervals:
+        Tape.addNote(piano, lh, calc_cos_pitch(x, 45), time2, 0.7, volume)
+        time2 = time2 + 0.7
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes')
 with open('Tape_1.mid', 'wb') as output_file:
