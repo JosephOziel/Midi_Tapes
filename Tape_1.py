@@ -1,4 +1,4 @@
-from midiutil import MIDIFile
+from midiutil import *
 from math import *
 import os
 
@@ -13,16 +13,19 @@ tempo1 = 169
 
 time = 0
 time2 = 25
-time3 = 65
+time3 = 100
 
 volume = 90
 
 Tape.addTempo(piano, one, tempo1)
+#Tape.addKeySignature(piano, time, 0, MAJOR, MINOR)
+
 Tape.addProgramChange(piano, one, time, 1)
 Tape.addProgramChange(piano, two, time, 1)
+Tape.addProgramChange(piano, three, time, 1)
 
 intervals = [(pi/8)*x for x in range(0,16)]
-intervals2 = [(pi/8)*x for x in range(62)]
+intervals2 = [(pi/8)*x for x in range(92)]
 
 def calc_sin_pitch(x,a):
     return ceil(44*sin(x)+a)
@@ -47,7 +50,7 @@ for _ in range(15):
         time2 = time2 + 0.7
 
 for x in intervals2:
-    Tape.addNote(piano, three, calc_sin_divx_pitch(x, 10), time3, 1.1, volume)
+    Tape.addNote(piano, three, calc_sin_divx_pitch(x, 21), time3, 1.1, volume)
     time3 = time3 + 1.1
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes')
