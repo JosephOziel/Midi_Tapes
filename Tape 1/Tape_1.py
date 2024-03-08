@@ -5,6 +5,8 @@ from random import *
 
 Tape = MIDIFile(2)
 
+instrument = 1
+
 piano = 0
 one = 0
 two = 1
@@ -18,9 +20,9 @@ volume = 90
 
 Tape.addTempo(piano, one, tempo1)
 
-Tape.addProgramChange(piano, one, time, 1)
-Tape.addProgramChange(piano, two, time, 1)
-Tape.addProgramChange(piano, three, time, 1)
+Tape.addProgramChange(piano, one, time, instrument)
+Tape.addProgramChange(piano, two, time, instrument)
+Tape.addProgramChange(piano, three, time, instrument)
 
 intervals = [(pi/8)*x for x in range(16)]
 intervals2 = [(pi/8)*x for x in range(102)]
@@ -83,6 +85,6 @@ for _ in range(18):
         Tape.addNote(piano, three, calc_arccos_pitch(x, 27, 26), time, 0.8, volume)
         time = time + 0.8
 
-os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes')
+os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Tape_1')
 with open('Tape_1.mid', 'wb') as output_file:
     Tape.writeFile(output_file)
