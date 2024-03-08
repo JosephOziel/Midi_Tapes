@@ -66,23 +66,51 @@ for x in intervals2:
 
 time = 211 
 
-for _ in range (25):
+for _ in range (13):
     for x in intervals3:
         Tape.addNote(piano, one, calc_arcsin_pitch(x, 34, 3), time, 0.2, volume)
         time = time + 0.4
 
+time = 299.4
+
+for _ in range(15):
+    for x in intervals3:
+        Tape.addNote(piano, one, calc_arccos_pitch(x, 34, 7), time, 0.2, volume)
+        time = time + 0.3
+
 time = 236.6
 
-for _ in range(21):
+for _ in range(7):
     for x in intervals3:
         Tape.addNote(piano, two, calc_arcsin_pitch(x, 56, 17), time, 0.3333, volume)
         time = time + 0.5
 
+time = 296.1
+
+for _ in range(7):
+    for x in intervals3:
+        Tape.addNote(piano, two, calc_arccos_pitch(x, 56, 17), time, 0.3333, volume)
+        time = time + 0.5
+
+time = 355.6
+
+for _ in range(7):
+    for x in intervals3:
+        Tape.addNote(piano, two, calc_arcsin_pitch(x, 43, 21), time, 0.3333, volume)
+        time = time + 0.5
+
 time = 257.6
 
-for _ in range(18):
+for _ in range(15):
     for x in intervals3:
         Tape.addNote(piano, three, calc_arccos_pitch(x, 27, 26), time, 0.8, volume)
+        time = time + 0.8
+
+time = 461.6
+
+for _ in range(3):
+    for x in intervals3:
+        Tape.addNote(piano, three, calc_arcsin_pitch(x, 20, 47), time, 0.6, volume)
         time = time + 0.8
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Tape_1')
