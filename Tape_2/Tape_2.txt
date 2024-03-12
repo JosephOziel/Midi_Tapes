@@ -1,0 +1,12 @@
+Fractal Sequences Used:
+	A003602: Kimberling's paraphrases. Fractal sequence obtained from powers of 2. 
+		Played by Piano.
+	A003603: Fractal sequence obtained from Fibonacci numbers (Wythoff array).
+		Played by guitar.
+	A087088: Positive ruler-type fractal sequence with 1's in every third position. 
+		Played by harpsichord.
+	A022447: Fractal sequence of the dispersion of the primes.
+		Played by xylophone.
+	A112382: A self-descriptive fractal sequence: the sequence contains every positive integer. 
+		Played by pizzicato contrabass.
+	
