@@ -3,7 +3,7 @@ from math import *
 import os
 from random import *
 
-Tape = MIDIFile(2)
+Tape = MIDIFile(1)
 
 instrument = 1
 
