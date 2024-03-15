@@ -37,10 +37,16 @@ for v in seq:
     Tape.addProgramChange(0, 0, time, (v%128)+1)
     Tape.addNote(0, 0, (v%88)+1, time, duration(v), (v%50)+50)
     time = time + duration(v)
+
+time = time + 2.1
+
 for v in seq2:
     Tape.addProgramChange(0, 0, time, (v%128)+1)
     Tape.addNote(0, 0, (v%88)+1, time, duration(v), (v%50)+50)
     time = time + duration(v)
+
+time = time + 2.2
+
 for v in seq3:
     Tape.addProgramChange(0, 0, time, (v%128)+1)
     Tape.addNote(0, 0, (v%88)+1, time, duration(v), (v%50)+50)
