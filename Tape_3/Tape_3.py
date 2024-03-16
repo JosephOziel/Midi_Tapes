@@ -140,10 +140,23 @@ for p in rseq[241:271]:
     Tape.addNote(2, 2, p, time, 0.2, 100)
     time = time + 0.2
 
-for p in rseq[271:302]:
+for p in rseq[271:301]:
     Tape.addProgramChange(2, 2, time, p)
     Tape.addNote(2, 2, p, time, 0.1, 100)
     time = time + 0.1
+
+Tape.addProgramChange(2, 2, time, rseq[300])
+Tape.addNote(2, 2, rseq[300], time, 4, 100)
+
+#-------------------------------
+    
+time = 240
+
+for v in seq[0:7]:
+    Tape.addProgramChange(0, 0, time, (v%128)+1)
+    Tape.addNote(0, 0, (v%88)+1, time, 2.7, 100)
+    time = time + 12
+
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Tape_3')
 with open('Tape_3.mid', 'wb') as output_file:
