@@ -1,5 +1,7 @@
 from midiutil import *
 import os
+from random import *
+from math import pi
 
 # A133058: a(0) = a(1) = 1; for n > 1, a(n) = a(n-1) + n + 1 if a(n-1) and n are coprime, otherwise a(n) = a(n-1)/gcd(a(n-1),n).
 seq = [1,1,4,8,2,8,4,12,3,1,12,24,2,16,8,24,3,21,7,27,
@@ -10,7 +12,7 @@ seq = [1,1,4,8,2,8,4,12,3,1,12,24,2,16,8,24,3,21,7,27,
 seq2 = [abs(v-35) for v in seq]
 seq3 = [(v+35) for v in reversed(seq)]
 
-Tape = MIDIFile(2)
+Tape = MIDIFile(3)
 
 Tape.addTempo(0, 0, 108.88)
 
@@ -52,6 +54,8 @@ for v in seq3:
     Tape.addNote(0, 0, (v%88)+1, time, duration(v), (v%50)+50)
     time = time + duration(v)
 
+#-------------------------------
+
 # A fractal array resembling the shape of a conifer tree read by rows. A mirror symmetric array of numbers where the n-th term is equal to the number of terms in the n-th row of the array.
 cseq = [1,2,3,4,1,5,6,2,3,7,8,9,4,1,5,10,11,6,2,3,7,12,
  13,14,15,8,16,17,9,4,1,5,10,18,19,11,6,2,3,7,12,
@@ -62,7 +66,7 @@ cseq3 = [(88-(x+21)) for x in cseq]
 
 time = 50
 
-Tape.addTempo(1, 50, 123.45)
+Tape.addTempo(1, time, 123.45)
 
 for v in [(x+25) for x in cseq]:
     Tape.addProgramChange(1, 1, time, (v%128)+1)
@@ -82,6 +86,64 @@ for v in cseq3:
     Tape.addProgramChange(1, 1, time, (v%128)+1)
     Tape.addNote(1, 1, (v%88)+1, time, duration(v), (v%50)+50)
     time = time + duration(v)
+
+#-------------------------------
+
+rseq = [randint(1, 90) for _ in range(301)]
+
+time = 190
+
+Tape.addTempo(2, time, 33*pi)
+
+for p in rseq[0:31]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 1, 100)
+    time = time + 1
+
+for p in rseq[31:61]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.9, 100)
+    time = time + 0.9
+
+for p in rseq[61:91]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.8, 100)
+    time = time + 0.8
+
+for p in rseq[91:121]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.7, 100)
+    time = time + 0.7
+
+for p in rseq[121:151]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.6, 100)
+    time = time + 0.6
+
+for p in rseq[151:181]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.5, 100)
+    time = time + 0.5
+
+for p in rseq[181:211]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.4, 100)
+    time = time + 0.4
+
+for p in rseq[211:241]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.3, 100)
+    time = time + 0.3
+
+for p in rseq[241:271]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.2, 100)
+    time = time + 0.2
+
+for p in rseq[271:302]:
+    Tape.addProgramChange(2, 2, time, p)
+    Tape.addNote(2, 2, p, time, 0.1, 100)
+    time = time + 0.1
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Tape_3')
 with open('Tape_3.mid', 'wb') as output_file:
