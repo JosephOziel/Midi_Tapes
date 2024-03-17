@@ -152,7 +152,7 @@ Tape.addNote(2, 2, rseq[300], time, 4, 100)
     
 time = 240
 
-for v in seq[0:7]:
+for v in seq[21:32]:
     Tape.addProgramChange(0, 0, time, (v%128)+1)
     Tape.addNote(0, 0, (v%88)+1, time, 2.7, 100)
     time = time + 12
