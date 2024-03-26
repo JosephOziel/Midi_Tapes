@@ -1,0 +1,5 @@
+Same track, but at different tempos played simultaneously.
+
+At 98, 99, 100, 101, 102 bpm. Basically a 98:99:100:101:102 polyrhythm. 
+
+I will try and program this so i can use ultralight

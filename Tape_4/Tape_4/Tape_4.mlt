@@ -1,0 +1,332 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.23.0" title="Shotcut version 23.12.15" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:04:24.720">
+    <property name="length">00:04:24.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_98.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="astream">0</property>
+    <property name="creation_time">2024-03-25T01:54:16</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">761c999351aa1e98c3dd1f910ca70757</property>
+    <property name="ignore_points">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:04:22.080">
+    <property name="length">00:04:22.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_99.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:54:58</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0ded3c5b94745413c145255506c69782</property>
+  </chain>
+  <chain id="chain2" out="00:04:22.080">
+    <property name="length">00:04:22.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_100.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:56:46</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e1de821018ed26695d676876165344dd</property>
+  </chain>
+  <chain id="chain3" out="00:04:19.480">
+    <property name="length">00:04:19.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_101.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:57:16</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">062c0aad353c4069a50f459608e614ee</property>
+  </chain>
+  <chain id="chain4" out="00:04:19.480">
+    <property name="length">00:04:19.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_102.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:58:07</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">fc5cf8dcd2dfc20c77e3c709bfee64bf</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:04:24.720"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:04:22.080"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:04:22.080"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:04:19.480"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:04:19.480"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:24.720">
+    <property name="length">00:04:24.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:24.720"/>
+  </playlist>
+  <chain id="chain5" out="00:04:24.720">
+    <property name="length">00:04:24.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_98.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="astream">0</property>
+    <property name="creation_time">2024-03-25T01:54:16</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">761c999351aa1e98c3dd1f910ca70757</property>
+    <property name="ignore_points">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain5" in="00:00:00.000" out="00:04:24.720"/>
+  </playlist>
+  <chain id="chain6" out="00:04:22.080">
+    <property name="length">00:04:22.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_99.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:54:58</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0ded3c5b94745413c145255506c69782</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <entry producer="chain6" in="00:00:00.000" out="00:04:22.080"/>
+  </playlist>
+  <chain id="chain7" out="00:04:22.080">
+    <property name="length">00:04:22.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_100.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:56:46</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e1de821018ed26695d676876165344dd</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A3</property>
+    <entry producer="chain7" in="00:00:00.000" out="00:04:22.080"/>
+  </playlist>
+  <chain id="chain8" out="00:04:19.480">
+    <property name="length">00:04:19.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_101.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:57:16</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">062c0aad353c4069a50f459608e614ee</property>
+    <property name="shotcut:caption">Tape_4_101.flac</property>
+  </chain>
+  <playlist id="playlist3">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A4</property>
+    <entry producer="chain8" in="00:00:00.000" out="00:04:19.480"/>
+  </playlist>
+  <chain id="chain9" out="00:04:19.480">
+    <property name="length">00:04:19.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_102.flac</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">flac</property>
+    <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.ARTIST.markup">Some Artist</property>
+    <property name="meta.attr.YEAR.markup">1984</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-03-25T01:58:07</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">fc5cf8dcd2dfc20c77e3c709bfee64bf</property>
+  </chain>
+  <playlist id="playlist4">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A5</property>
+    <entry producer="chain9" in="00:00:00.000" out="00:04:19.480"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 23.12.15" in="00:00:00.000" out="00:04:24.720">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="video"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist3" hide="video"/>
+    <track producer="playlist4" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
