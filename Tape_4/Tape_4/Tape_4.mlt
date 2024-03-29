@@ -119,6 +119,22 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">fc5cf8dcd2dfc20c77e3c709bfee64bf</property>
   </chain>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_Cover.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-03-29T01:13:18</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">be67e84ddc5aed69f578a02c3a460bac</property>
+  </producer>
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
     <entry producer="chain0" in="00:00:00.000" out="00:04:24.720"/>
@@ -126,6 +142,7 @@
     <entry producer="chain2" in="00:00:00.000" out="00:04:22.080"/>
     <entry producer="chain3" in="00:00:00.000" out="00:04:19.480"/>
     <entry producer="chain4" in="00:00:00.000" out="00:04:19.480"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:03.960"/>
   </playlist>
   <producer id="black" in="00:00:00.000" out="00:04:24.720">
     <property name="length">00:04:24.760</property>
@@ -283,16 +300,39 @@
     <property name="shotcut:name">A5</property>
     <entry producer="chain9" in="00:00:00.000" out="00:04:19.480"/>
   </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/vatis/OneDrive/Documents/Midi_Tapes/Tape_4/Tape_4_Cover.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-03-29T01:13:18</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">be67e84ddc5aed69f578a02c3a460bac</property>
+  </producer>
+  <playlist id="playlist5">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:04:24.720"/>
+  </playlist>
   <tractor id="tractor0" title="Shotcut version 23.12.15" in="00:00:00.000" out="00:04:24.720">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:skipConvert">0</property>
     <track producer="background"/>
     <track producer="playlist0" hide="video"/>
     <track producer="playlist1" hide="video"/>
     <track producer="playlist2" hide="video"/>
     <track producer="playlist3" hide="video"/>
     <track producer="playlist4" hide="video"/>
+    <track producer="playlist5"/>
     <transition id="transition0">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -327,6 +367,21 @@
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
     </transition>
   </tractor>
 </mlt>
