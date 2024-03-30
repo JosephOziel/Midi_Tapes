@@ -28,23 +28,25 @@ for _ in range(num):
 #--
     
 Tape.addTempo(1, 1, init+tempo_interval)
+print(init+tempo_interval)
 Tape.addProgramChange(1, 1, 0, instr)  
 
 time = 0
 
 for _ in range(num):
-    Tape.addNote(1, 1, scale[1], time, 1, 100)
+    Tape.addNote(1, 1, scale[1], time, 0.9, 100)
     time = time + 1
 
 #--
     
-Tape.addTempo(2, 2, init+2*tempo_interval)
+Tape.addTempo(2, 2, init+tempo_interval*2)
+print(init+tempo_interval*2)
 Tape.addProgramChange(2, 2, 0, instr)  
 
 time = 0
 
 for _ in range(num):
-    Tape.addNote(2, 2, scale[2], time, 1, 100)
+    Tape.addNote(2, 2, scale[2], time, 0.8, 100)
     time = time + 1
 
 
