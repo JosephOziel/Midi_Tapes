@@ -52,6 +52,6 @@ for _ in range(3):
         time = time + 1
     time = time+15
 
-os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Symmetry_Pieces\\Whole_Tones')
+os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Symmetry_Pieces')
 with open('Whole_Tones.mid', 'wb') as output_file:
     Tape.writeFile(output_file)
