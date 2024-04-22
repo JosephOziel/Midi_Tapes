@@ -114,11 +114,11 @@ for i in range(1,16):
 for i in range(16, 30):
     kol2(i, 3)
 
+for i in range(30, 42):
+    kol3(i, 4, 3, 60) 
+
 time = time + 1
 time2 = time
-
-for i in range(30, 42):
-    kol3(i, 4, 3, 60)
 
 os.chdir('C:\\Users\\vatis\\OneDrive\\Documents\\Midi_Tapes\\Programmed_Pieces\\Kollatz_Musik')
 with open('Kollatz_Musik.mid', 'wb') as output_file:
