@@ -116,7 +116,7 @@ for i in range(2*k, 3*k-3):
     kol3(i, 4, -3, 60) 
 
 time = time + 1
-time2 = time
+time2 = time 
 
 for i in range(3*k-1, 3*k+4):
     kol3(i, 3, -4, 61)
